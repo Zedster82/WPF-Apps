@@ -5,11 +5,57 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUI_Manipulation"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStyle="None">
-    <Grid>
-        <Grid x:Name="headerGrid">
-            <Rectangle HorizontalAlignment="Center" Height="33" VerticalAlignment="Top" Width="800" Fill="Black"/>
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" Background="Transparent">
+    <Border CornerRadius="5"  BorderBrush="#FF383838" BorderThickness="5">
+        <Grid x:Name="headerGrid" Margin="-5,-5,-5,417">
+            <Rectangle HorizontalAlignment="Center" Height="25" VerticalAlignment="Top" Width="796" Fill="#FF383838" MouseLeftButtonDown="dragWindow" Margin="0,3,0,0"/>
+            <Grid x:Name="windowButtons" Margin="705,6,5,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
 
+                
+                <Grid x:Name="minimiseGrid" Grid.Column="2"  MouseLeftButtonUp="closeWindow" Background="#00000000">
+                    
+                    
+                    <Rectangle Fill="Black" RenderTransformOrigin="0.5,0.5" Height=".5" Width="12">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="45"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                        </Rectangle>
+                    <Rectangle Fill="Black" RenderTransformOrigin="0.5,0.5" Height=".5" Width="12">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-45"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                        </Rectangle>
+                    
+                    
+                </Grid>
+
+
+                <Grid x:Name="maximiseGrid" Grid.Column="1" Background="#00000000" >
+                    
+                    <Border BorderBrush="Black" BorderThickness=".5" Height="10" Width="10"/>
+                </Grid>
+
+
+                <Grid x:Name="closeGrid"  Grid.Column="0" MouseLeftButtonUp="windowMinimise" Background="#00000000" >
+                    <Rectangle Height=".5" Width="12" Fill="Black" />
+                </Grid>
+
+            </Grid>
         </Grid>
-    </Grid>
+    </Border>
 </Window>

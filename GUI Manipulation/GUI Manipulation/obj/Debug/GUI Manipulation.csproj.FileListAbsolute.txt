@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\bin\Debug\GUI Manipulation.exe.config
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\bin\Debug\GUI Manipulation.exe
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\bin\Debug\GUI Manipulation.pdb
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation_MarkupCompile.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation_MarkupCompile.lref
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.g.resources
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI_Manipulation.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.exe
+C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.pdb

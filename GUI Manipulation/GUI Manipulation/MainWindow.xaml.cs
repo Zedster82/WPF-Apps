@@ -24,5 +24,23 @@ namespace GUI_Manipulation
         {
             InitializeComponent();
         }
+
+        private void dragWindow(object sender, MouseButtonEventArgs e)
+        {
+            base.OnMouseLeftButtonDown(e);
+
+            // Begin dragging the window
+            this.DragMove();
+        }
+
+        private void closeWindow(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void windowMinimise(object sender, MouseButtonEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
     }
 }
