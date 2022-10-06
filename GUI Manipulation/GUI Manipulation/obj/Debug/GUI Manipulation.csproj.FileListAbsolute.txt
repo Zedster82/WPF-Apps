@@ -14,3 +14,18 @@ C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\D
 C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.exe
 C:\Users\Admin\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.pdb
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\bin\Debug\GUI Manipulation.exe.config
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\bin\Debug\GUI Manipulation.exe
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\bin\Debug\GUI Manipulation.pdb
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.AssemblyReference.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\MainWindow.g.cs
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\App.g.cs
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation_MarkupCompile.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation_MarkupCompile.lref
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\MainWindow.baml
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.g.resources
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI_Manipulation.Properties.Resources.resources
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.GenerateResource.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.csproj.CoreCompileInputs.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.exe
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\GUI Manipulation\GUI Manipulation\obj\Debug\GUI Manipulation.pdb
