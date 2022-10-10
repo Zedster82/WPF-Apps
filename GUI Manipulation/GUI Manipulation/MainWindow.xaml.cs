@@ -23,6 +23,7 @@ namespace GUI_Manipulation
         public MainWindow()
         {
             InitializeComponent();
+            createWindows();
         }
 
         private void dragWindow(object sender, MouseButtonEventArgs e)
@@ -41,6 +42,29 @@ namespace GUI_Manipulation
         private void windowMinimise(object sender, MouseButtonEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
+        }
+
+        private void createWindows()
+        {            
+            for (int i = 0; i < 5; i++)
+            {
+                Rectangle rec = new Rectangle()
+                {
+                    Width = 20,
+                    Height = 20,
+                    Fill = Brushes.Green,
+                    Stroke = Brushes.Red,
+                    StrokeThickness = 2,
+                    Name = "rectangle" + i,
+                    Margin = new Thickness(0, i * 40, 0, 0)
+                };
+                mainWindowGrid.Children.Add(rec);
+            }
+        }
+
+        private void openSettingsMenu(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }
