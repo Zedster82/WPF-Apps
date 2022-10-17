@@ -1,2 +1,2 @@
-# WPF-Apps
-this is a test to committ a change 
+## WPF-Apps
+This is a repository to show my knowledge of WPF
