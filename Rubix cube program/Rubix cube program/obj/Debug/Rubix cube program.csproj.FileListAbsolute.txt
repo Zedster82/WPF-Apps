@@ -1,0 +1,15 @@
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\bin\Debug\Rubix cube program.exe.config
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\bin\Debug\Rubix cube program.exe
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\bin\Debug\Rubix cube program.pdb
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program.csproj.AssemblyReference.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\MainWindow.g.cs
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\App.g.cs
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program_MarkupCompile.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program_MarkupCompile.lref
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\MainWindow.baml
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program.g.resources
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix_cube_program.Properties.Resources.resources
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program.csproj.GenerateResource.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program.csproj.CoreCompileInputs.cache
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program.exe
+C:\Users\Owenh\Documents\GitHub\WPF-Apps\Rubix cube program\Rubix cube program\obj\Debug\Rubix cube program.pdb
