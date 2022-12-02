@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\bin\Debug\shorcutPrograms.exe.config
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\bin\Debug\shorcutPrograms.exe
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\bin\Debug\shorcutPrograms.pdb
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms_MarkupCompile.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms_MarkupCompile.lref
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms.g.resources
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms.exe
+C:\Users\Admin\Documents\GitHub\WPF-Apps\shorcutPrograms\shorcutPrograms\obj\Debug\shorcutPrograms.pdb
