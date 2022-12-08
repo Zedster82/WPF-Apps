@@ -1,18 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+
 
 namespace shorcutPrograms
 {
@@ -24,102 +13,46 @@ namespace shorcutPrograms
         public MainWindow()
         {
             InitializeComponent();
-            
+
         }
 
-        private void findMissingFiles(object sender, MouseButtonEventArgs e)
-        {
-            /*MessageBox.Show("test");
-            if (FindMissingFilesTextBox1.Text == "filePath")
-            {
-                FindMissingFilesTextBox1.Text = "Please enter a file path";
-            }
-            else if (FindMissingFilesTextBox2.Text == "filePath")
-            {
-                FindMissingFilesTextBox2.Text = "Please enter a file path";
-            }
-            else
-            {
-                List<string> missingFiles = new List<string>();
-                try
-                {
-
-                    // Get a list of all files
-                    string[] fileNameList1 = Directory.GetFiles(FindMissingFilesTextBox1.Text);
-                    string[] fileNameList2 = Directory.GetFiles(FindMissingFilesTextBox2.Text);
-
-                    for (int i = 0; i < fileNameList1.Length; i++)//Loop through folder 1
-                    {
-                        bool fileFound = false;
-                        for (int j = 0; j < fileNameList2.Length; j++)//Loop through folder 2
-                        {
-                            if (fileNameList1[i] == fileNameList2[i])
-                            {
-                                //File has been found, set found to true
-                                fileFound = true;
-                            }
-                        }
-                        if (fileFound == false)//Check if the file has been found, if not then add to missing list
-                        {
-                            //File not found, add to the file missing list
-                            missingFiles.Add(fileNameList1[i]);
-                        }
-                    }
-                    string missingFilesText = string.Join("\n", missingFiles);
-                    MessageBox.Show(missingFilesText);
-                }
-                catch
-                {
-                    MessageBox.Show("There was an issue with the file path, please enter a valid file path");
-                }
-            }*/
-        }
 
         private void findMissingFiles(object sender, RoutedEventArgs e)
         {
-            
-            if (FindMissingFilesTextBox1.Text == "filePath")
+            int folder1Length;
+            int folder2Length;
+            try //Try to get a count of the files in the folders
             {
-                FindMissingFilesTextBox1.Text = "Please enter a file path";
+                folder1Length =  Directory.GetFiles(FindMissingFilesTextBox1.Text).Length;
+                folder2Length = Directory.GetFiles(FindMissingFilesTextBox2.Text).Length;
             }
-            else if (FindMissingFilesTextBox2.Text == "filePath")
+            catch//If the folder is not accessible then set the length to 0 so it will be caught by the error catcher
             {
-                FindMissingFilesTextBox2.Text = "Please enter a file path";
+                folder1Length = 0;
+                folder2Length = 0;
+            }
+
+
+            string[] fileNameList1 = new string[folder1Length];//Create array with length of the files in the folders
+            string[] fileNameList2 = new string[folder2Length];
+
+            if (folder1Length == 0 || folder2Length == 0)//Check to see if there is an issue with the folders/filePath
+            {
+                MessageBox.Show("Something went wrong, please check the file paths","Error",MessageBoxButton.OK,MessageBoxImage.Error);
             }
             else
             {
                 List<string> missingFiles = new List<string>();
 
-                string[] fileNameList1;
-                string[] fileNameList2;
-                string errorMessage = "";
-                try
-                {
-                    // Get a list of all files
-                    errorMessage = "FilePath1";
-                    fileNameList1 = Directory.GetFiles(FindMissingFilesTextBox1.Text);
-                    errorMessage = "FilePath2";
-                    fileNameList2 = Directory.GetFiles(FindMissingFilesTextBox2.Text);
-                }
-                catch (DirectoryNotFoundException)
-                {
-                    MessageBox.Show($"A directory of {errorMessage} does not exist");
-                }
-                catch (PathTooLongException)
-                {
-                    MessageBox.Show($"The path entered in {errorMessage} is too long");
-                }
-                catch 
-                {
-
-                }
+                fileNameList1 = Directory.GetFiles(FindMissingFilesTextBox1.Text);//Get all the files in the folder, we know this works because of the 
+                fileNameList2 = Directory.GetFiles(FindMissingFilesTextBox2.Text);//try catch before, so no error handling is required
 
                 for (int i = 0; i < fileNameList1.Length; i++)//Loop through folder 1
                 {
                     bool fileFound = false;
                     for (int j = 0; j < fileNameList2.Length; j++)//Loop through folder 2
                     {
-                        if (fileNameList1[i] == fileNameList2[i])
+                        if (System.IO.Path.GetFileName(fileNameList1[i]) == System.IO.Path.GetFileName(fileNameList2[j]))//Check if the name of the file is the same, not the whole filepath
                         {
                             //File has been found, set found to true
                             fileFound = true;
@@ -128,13 +61,39 @@ namespace shorcutPrograms
                     if (fileFound == false)//Check if the file has been found, if not then add to missing list
                     {
                         //File not found, add to the file missing list
-                        missingFiles.Add(fileNameList1[i]);
+                        missingFiles.Add(System.IO.Path.GetFileName(fileNameList1[i]));
                     }
                 }
-                string missingFilesText = string.Join("\n", missingFiles);
-                MessageBox.Show(missingFilesText);
 
+                if (missingFiles.Count <= 0)//There are no missing files as the missing files array is empty
+                {
+                    if (fileNameList2.Length > fileNameList1.Length - missingFiles.Count)//Check to see if there are stray files
+                    {
+                        MessageBox.Show("No missing files, however there are stray files");
+                    }
+                    else
+                    {
+                        MessageBox.Show("No missing files");
+                    }
+                }
+                else//Missing files
+                {
+                    string missingFilesText = string.Join("\n", missingFiles);
+                    if (fileNameList2.Length > fileNameList1.Length - missingFiles.Count)//Check for stray files
+                    {
+                        MessageBox.Show($"There are missing files: \n{missingFilesText}\n and there are also stray files");//Print list of missing files and print stray files
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Missing files: \n" + missingFilesText);//Show missing files
+                    }
+                }
             }
         }
+
+
+
+
+
     }
 }
