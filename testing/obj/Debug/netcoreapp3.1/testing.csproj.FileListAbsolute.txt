@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\bin\Debug\netcoreapp3.1\testing.exe
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\bin\Debug\netcoreapp3.1\testing.deps.json
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\bin\Debug\netcoreapp3.1\testing.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\bin\Debug\netcoreapp3.1\testing.runtimeconfig.dev.json
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\bin\Debug\netcoreapp3.1\testing.dll
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\bin\Debug\netcoreapp3.1\testing.pdb
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.Form1.resources
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.dll
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.pdb
+C:\Users\Admin\Documents\GitHub\WPF-Apps\testing\obj\Debug\netcoreapp3.1\testing.genruntimeconfig.cache

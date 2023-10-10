@@ -52,7 +52,7 @@ namespace shorcutPrograms
                     bool fileFound = false;
                     for (int j = 0; j < fileNameList2.Length; j++)//Loop through folder 2
                     {
-                        if (System.IO.Path.GetFileName(fileNameList1[i]) == System.IO.Path.GetFileName(fileNameList2[j]))//Check if the name of the file is the same, not the whole filepath
+                        if (Path.GetFileName(fileNameList1[i]) == System.IO.Path.GetFileName(fileNameList2[j]))//Check if the name of the file is the same, not the whole filepath
                         {
                             //File has been found, set found to true
                             fileFound = true;
@@ -61,7 +61,7 @@ namespace shorcutPrograms
                     if (fileFound == false)//Check if the file has been found, if not then add to missing list
                     {
                         //File not found, add to the file missing list
-                        missingFiles.Add(System.IO.Path.GetFileName(fileNameList1[i]));
+                        missingFiles.Add(Path.GetFileName(fileNameList1[i]));
                     }
                 }
 
